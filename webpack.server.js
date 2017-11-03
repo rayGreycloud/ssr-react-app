@@ -1,6 +1,6 @@
 const path = require('path');
 
-modules.exports = {
+module.exports = {
   // Set build for node instead of browser
   target: 'node',
   // App root file 
