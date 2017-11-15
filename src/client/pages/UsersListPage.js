@@ -18,7 +18,6 @@ class UsersList extends Component {
     return (
       <Helmet>
         <title>{`SSR-Users(${this.props.users.length})`}</title>
-        <meta property="og:title" content="SSR App"/>
       </Helmet>      
     );
   }
